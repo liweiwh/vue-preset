@@ -1,0 +1,25 @@
+{
+  "useTaobaoRegistry": false,
+  "latestVersion": "4.1.2",
+  "lastChecked": 1578365310549,
+  "packageManager": "yarn",
+  "presets": {
+    "es6-lint-scss": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-router": {
+          "historyMode": false
+        },
+        "@vue/cli-plugin-vuex": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "standard",
+          "lintOn": [
+            "save"
+          ]
+        }
+      },
+      "cssPreprocessor": "dart-sass"
+    }
+  }
+}
